@@ -36,19 +36,28 @@ In my free time, I like to read, camp, or make travel plans with my family.
 
 
 
-You can reach me at
+<span style="line-height: 0.8;">
+You can reach me at:<br>
+[willtown@ou.edu](mailto:willtown@ou.edu)<br>
+Department of Economics || University of Oklahoma<br>
+308 Cate Center Drive One<br>
+Norman, OK USA 73072</span>
 
-[willtown@ou.edu](mailto:willtown@ou.edu)
 
-Department of Economics || University of Oklahoma
-
-308 Cate Center Drive One 
-
-Norman, OK USA 73072
-
-![GitHub](images/github.png){width=20%} [GitHub](https://github.com/williamatownsend)  
-![LinkedIn](images/linkedin.png){width=16%} [LinkedIn](https://www.linkedin.com/in/william-townsend-b26981331/)
-
+<div style="text-align: center;">
+  <div style="display: inline-block; margin: 0 10px;">
+    <a href="https://github.com/williamatownsend">
+      <img src="images/github.png" style="width: 17%;">
+      <br>GitHub
+    </a>
+  </div>
+  <div style="display: inline-block; margin: 0 10px;">
+    <a href="https://www.linkedin.com/in/william-townsend-b26981331/">
+      <img src="images/linkedin.png" style="width: 13%;">
+      <br>LinkedIn
+    </a>
+  </div>
+</div>
 
 
 </div>
