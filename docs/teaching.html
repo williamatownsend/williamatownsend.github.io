@@ -11,7 +11,7 @@
 
 
 
-<title>William Townsend</title>
+<title>Teaching</title>
 
 <script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -219,6 +222,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -226,6 +292,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -266,7 +342,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">William Townsend</h1>
+<h1 class="title toc-ignore">Teaching</h1>
 
 </div>
 
@@ -276,45 +352,98 @@ $(document).ready(function () {
   display: none;
 }
 
-#getting-started img {
-  margin-right: 10px;
-}
-
 </style>
-<div class="row" style="padding-top: 30px;">
-<div class="col-sm-8">
-<div style="text-align: justify">
-<div id="about-me" class="section level2">
-<h2><strong>About Me</strong></h2>
-<p>Hi, welcome to my website!</p>
-<p>I am a PhD candidate in Economics at the University of Oklahoma.</p>
-<p>I work on applied micro issues focusing on environment and ecology,
-agricultural economics, international trade, development, and public
-economics.</p>
-<p>In my free time, I like to read, camp, or make travel plans with my
-family.</p>
-</div>
-<div id="research-interests" class="section level2">
-<h2>Research Interests</h2>
+<div id="instructor" class="section level1">
+<h1>Instructor</h1>
+<div id="summer-2023" class="section level5">
+<h5>Summer 2023</h5>
 <ul>
-<li>environment and ecology</li>
-<li>Agricultural economics</li>
-<li>International trade</li>
-<li>Development economics</li>
-<li>Public economics</li>
-<li>Machine Learning Application</li>
+<li>Econ 2843: Elements of Statistics (undergraduate, evaluation: 83 out
+of 100)</li>
+</ul>
+</div>
+<div id="spring-2021" class="section level5">
+<h5>Spring 2021</h5>
+<ul>
+<li>Econ 1123: Principles of Microeconomics (undergraduate, evaluation:
+4.67 out of 5)</li>
 </ul>
 </div>
 </div>
-<div class="col-sm-8">
+<div id="teaching-assistant" class="section level1">
+<h1>Teaching Assistant</h1>
+<div id="fall-2023" class="section level5">
+<h5>Fall 2023</h5>
+<ul>
+<li>Econ 4223: Econometric Analysis (undergraduate)</li>
+</ul>
+</div>
+<div id="spring-2023" class="section level5">
+<h5>Spring 2023</h5>
+<ul>
+<li>Econ 6533: Labor Economics II (PhD)</li>
+<li>Econ 5043: Managerial Economics II Machine Learning and Causal
+Inference (master)</li>
+<li>Econ 4513: The Economics of Discrimination (undergraduate)</li>
+</ul>
+</div>
+<div id="fall-2022" class="section level5">
+<h5>Fall 2022</h5>
+<ul>
+<li>Econ 6433: Labor Economics I (PhD)</li>
+<li>Econ 5213: Advanced Econometrics (PhD)</li>
+<li>Econ 5023: Statistics for Decision Making (master)</li>
+<li>Econ 1123: Principles of Microeconomics (undergraduate)</li>
+</ul>
+</div>
+<div id="spring-2022" class="section level5">
+<h5>Spring 2022</h5>
+<ul>
+<li>Econ 6213: Seminar in Price &amp; Welfare Theory (PhD)</li>
+<li>Econ 1123: Principles of Microeconomics (undergraduate)</li>
+</ul>
+</div>
+<div id="fall-2021" class="section level5">
+<h5>Fall 2021</h5>
+<ul>
+<li>Econ 5163: Advanced Macroeconomic &amp; Growth Theory (PhD)</li>
+</ul>
+</div>
+<div id="spring-2021-1" class="section level5">
+<h5>Spring 2021</h5>
+<ul>
+<li>Econ 6213: Seminar in Price &amp; Welfare Theory (PhD)</li>
+<li>Econ 5243: Econometrics II (PhD)</li>
+</ul>
+</div>
+<div id="fall-2020" class="section level5">
+<h5>Fall 2020</h5>
+<ul>
+<li>Econ 5033: Managerial Economics I (master)</li>
+<li>Econ 3113: Intermediate Microeconomics (undergraduate)</li>
+</ul>
+</div>
+<div id="spring-2020" class="section level5">
+<h5>Spring 2020</h5>
+<ul>
+<li>Econ 3713: Governmental Relations to Business (undergraduate)</li>
+<li>Econ 4970: Behavioral and Experimental Economics
+(undergraduate)</li>
+</ul>
+</div>
+<div id="fall-2019" class="section level5">
+<h5>Fall 2019</h5>
+<ul>
+<li>Econ 5033: Managerial Economics I (master)</li>
+<li>Econ 3113: Intermediate Microeconomics (undergraduate)</li>
+</ul>
+</div>
+</div>
+
+
 
 </div>
 </div>
-<p><img src="images/logo.jpg" width="300"></p>
-<p></a></p>
-
-
-
 
 </div>
 
@@ -347,6 +476,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

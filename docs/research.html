@@ -11,7 +11,7 @@
 
 
 
-<title>William Townsend</title>
+<title>Research</title>
 
 <script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -219,6 +222,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -226,6 +292,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -266,7 +342,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">William Townsend</h1>
+<h1 class="title toc-ignore">Research</h1>
 
 </div>
 
@@ -276,45 +352,88 @@ $(document).ready(function () {
   display: none;
 }
 
-#getting-started img {
-  margin-right: 10px;
-}
-
 </style>
-<div class="row" style="padding-top: 30px;">
-<div class="col-sm-8">
+<div id="job-market-paper" class="section level1">
+<h1>Job Market Paper</h1>
 <div style="text-align: justify">
-<div id="about-me" class="section level2">
-<h2><strong>About Me</strong></h2>
-<p>Hi, welcome to my website!</p>
-<p>I am a PhD candidate in Economics at the University of Oklahoma.</p>
-<p>I work on applied micro issues focusing on environment and ecology,
-agricultural economics, international trade, development, and public
-economics.</p>
-<p>In my free time, I like to read, camp, or make travel plans with my
-family.</p>
+<ol style="list-style-type: decimal">
+<li><p>Love Has No Boundaries: Racial Assortative Mating and
+Intergenerational Mobility (with Le Wang)</p>
+<p>Abstract: This paper examines an under-explored determinant of
+intergenerational mobility: racial assortative mating. Our unique
+identification strategy leverages two historical events – changes in
+marriageable Black population during the Second Great Migration and the
+landmark 1967 Supreme Court ruling in <em>Loving v. Virginia</em>. The
+interplay of these events present exogenous shocks to marriage market
+conditions that are conducive to interracial marriages, thereby reducing
+racial assortative mating. We provide robust evidence revealing a
+pronounced and negative relationship between racial assortative mating
+and mobility. We further show that the negative mobility impacts
+associated with assortative mating might be channeled through factors
+such as social network formations, neighborhood characteristics, and
+family structure. Finally, we also uncover a significant heterogeneity
+in the effects across the income distribution. The negative effects are
+more markedly pronounced for children from low-income families than for
+children from more affluent families. Such pattern is consistent with
+the differential influence of alternative mechanisms across the income
+distribution.</p></li>
+</ol>
 </div>
-<div id="research-interests" class="section level2">
-<h2>Research Interests</h2>
-<ul>
-<li>environment and ecology</li>
-<li>Agricultural economics</li>
-<li>International trade</li>
-<li>Development economics</li>
-<li>Public economics</li>
-<li>Machine Learning Application</li>
-</ul>
+</div>
+<div id="working-in-progress" class="section level1">
+<h1>Working in Progress</h1>
+<div style="text-align: justify">
+<ol style="list-style-type: decimal">
+<li><p>When Love Disappears: Parental Divorce and Offspring Outcomes
+(with Le Wang)</p>
+<p>Abstract: In this paper, we apply a machine learning approach to
+explore the heterogeneous impacts of parental divorce on children’s
+educational attainment. Our results reveal a non-linear relationship
+between the divorce effect and parental income. Specifically, the
+negative influence of parental divorce on children’s educational
+attainment, when considered in relation to parental income, exhibits a
+U-shaped pattern. Our findings also indicate that the adverse impact of
+parental divorce on the likelihood of children attaining a college
+degree is more pronounced among those whose mothers are highly educated
+or give birth at a later age. However, this impact on the probability of
+children obtaining a high school diploma is greater for those born to
+less educated mothers or whose mothers give birth at a younger
+age.</p></li>
+<li><p>Marriage Matching and Female Occupation Choice (with Pallab
+Ghosh)</p>
+<p>Abstract: In this paper, we develop a household decision-making model
+to examine how marriage patterns influence a woman’s occupational
+choices. This research highlights a direct correlation between the
+intra-household wage gap and a wife’s working hours. When a significant
+wage gap exists, often resulting from the wife’s lower educational
+attainment, she tends to focus more on domestic responsibilities.
+Conversely, lesser wage disparities see increased female participation
+in the workforce. Our findings indicate that a woman is more likely to
+be employed in roles that demand extended working hours or offer limited
+flexibility if she is more educated than her husband.</p></li>
+<li><p>Sunlight and Intergenerational Mobility (with Per G. Fredriksson
+and Le Wang)</p></li>
+<li><p>Hell or Heaven: Rethinking Marriage and Marriage Premium</p></li>
+<li><p>Daughter and Divorce: A Machine Learning Application (with Le
+Wang)</p></li>
+</ol>
 </div>
 </div>
-<div class="col-sm-8">
+<div id="publication" class="section level1">
+<h1>Publication</h1>
+<ol style="list-style-type: decimal">
+<li><a
+href="https://link.springer.com/article/10.1007/s12546-022-09286-4">Religion
+Effects on Fertility Preference: Evidence from China (with Yonghong
+Zhou), <em>Journal of Population Research</em> 39, 341–371
+(2022)</a></li>
+</ol>
+</div>
+
+
 
 </div>
 </div>
-<p><img src="images/logo.jpg" width="300"></p>
-<p></a></p>
-
-
-
 
 </div>
 
@@ -347,6 +466,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
