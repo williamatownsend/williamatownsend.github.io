@@ -45,19 +45,9 @@ Norman, OK USA 73072</span>
 
 <center>
 
-<div style="display: inline-block; text-align: center; margin: 0 10px;">
-  <a href="https://github.com/williamatownsend">
-    <img src="images/github.png" style="width: 15%;">
-    <br>GitHub
-  </a>
-</div>
+![](images/linkedin.png){width=6%} ![](images/github.png){width=10%}
 
-<div style="display: inline-block; text-align: center; margin: 0 10px;">
-  <a href="https://www.linkedin.com/in/william-townsend-b26981331/">
-    <img src="images/linkedin.png" style="width: 9%;">
-    <br>LinkedIn
-  </a>
-</div>
+
 
 </center>
 
