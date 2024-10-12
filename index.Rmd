@@ -43,13 +43,11 @@ Department of Economics || University of Oklahoma<br>
 308 Cate Center Drive One<br>
 Norman, OK USA 73072</span>
 
-<center>
+
 
 ![](images/linkedin.png){width=6%} ![](images/github.png){width=10%}
 
 
-
-</center>
 
 
 </div>
