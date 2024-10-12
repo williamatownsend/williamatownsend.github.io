@@ -1,0 +1,77 @@
+---
+title: "Teaching"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 1
+    #code_folding: hide
+---
+
+<style type="text/css">
+.title {
+  display: none;
+}
+
+</style>
+
+# Instructor
+
+
+##### Summer 2023
+ - Econ 2843: Elements of Statistics (undergraduate, evaluation: 83 out of 100)
+
+##### Spring 2021
+ - Econ 1123: Principles of Microeconomics (undergraduate, evaluation: 4.67 out of 5)
+
+
+
+# Teaching Assistant
+
+##### Fall 2023
+ - Econ 4223: Econometric Analysis (undergraduate)
+
+##### Spring 2023
+ - Econ 6533: Labor Economics II (PhD)
+ - Econ 5043: Managerial Economics II Machine Learning and Causal Inference (master)
+ - Econ 4513: The Economics of Discrimination (undergraduate)
+
+
+##### Fall 2022
+ - Econ 6433: Labor Economics I (PhD)
+ - Econ 5213: Advanced Econometrics (PhD)
+ - Econ 5023: Statistics for Decision Making (master)
+ - Econ 1123: Principles of Microeconomics (undergraduate)
+
+
+##### Spring 2022
+ - Econ 6213: Seminar in Price & Welfare Theory (PhD)
+ - Econ 1123: Principles of Microeconomics (undergraduate)
+
+
+
+##### Fall 2021
+ - Econ 5163:  Advanced Macroeconomic & Growth Theory (PhD)
+
+
+
+##### Spring 2021
+ - Econ 6213: Seminar in Price & Welfare Theory (PhD)
+ - Econ 5243: Econometrics II (PhD)
+
+
+##### Fall 2020
+ - Econ 5033: Managerial Economics I (master)
+ - Econ 3113: Intermediate Microeconomics (undergraduate) 
+
+
+##### Spring 2020
+ - Econ 3713: Governmental Relations to Business (undergraduate)
+ - Econ 4970: Behavioral and Experimental Economics (undergraduate)
+
+
+##### Fall 2019
+ - Econ 5033: Managerial Economics I (master)
+ - Econ 3113: Intermediate Microeconomics (undergraduate) 

@@ -1,0 +1,54 @@
+---
+title: "Research"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 1
+    #code_folding: hide
+---
+
+<style type="text/css">
+.title {
+  display: none;
+}
+
+</style>
+
+# Job Market Paper
+
+<div style="text-align: justify">
+
+1.  Love Has No Boundaries: Racial Assortative Mating and Intergenerational Mobility (with Le Wang)
+
+    Abstract: This paper examines an under-explored determinant of intergenerational mobility: racial assortative mating. Our unique identification strategy leverages two historical events – changes in marriageable Black population during the Second Great Migration and the landmark 1967 Supreme Court ruling in *Loving v. Virginia*. The interplay of these events present exogenous shocks to marriage market conditions that are conducive to interracial marriages, thereby reducing racial assortative mating. We provide robust evidence revealing a pronounced and negative relationship between racial assortative mating and mobility. We further show that the negative mobility impacts associated with assortative mating might be channeled through factors such as social network formations, neighborhood characteristics, and family structure. Finally, we also uncover a significant heterogeneity in the effects across the income distribution. The negative effects are more markedly pronounced for children from low-income families than for children from more affluent families. Such pattern is consistent with the differential influence of alternative mechanisms across the income distribution.
+
+</div>
+
+# Working in Progress
+
+<div style="text-align: justify">
+
+
+1.	When Love Disappears: Parental Divorce and Offspring Outcomes (with Le Wang)
+
+    Abstract: In this paper, we apply a machine learning approach to explore the heterogeneous impacts of parental divorce on children's educational attainment. Our results reveal a non-linear relationship between the divorce effect and parental income. Specifically, the negative influence of parental divorce on children's educational attainment, when considered in relation to parental income, exhibits a U-shaped pattern. Our findings also indicate that the adverse impact of parental divorce on the likelihood of children attaining a college degree is more pronounced among those whose mothers are highly educated or give birth at a later age. However, this impact on the probability of children obtaining a high school diploma is greater for those born to less educated mothers or whose mothers give birth at a younger age.
+
+
+2.	Marriage Matching and Female Occupation Choice (with Pallab Ghosh)
+
+    Abstract: In this paper, we develop a household decision-making model to examine how marriage patterns influence a woman's occupational choices. This research highlights a direct correlation between the intra-household wage gap and a wife's working hours. When a significant wage gap exists, often resulting from the wife's lower educational attainment, she tends to focus more on domestic responsibilities. Conversely, lesser wage disparities see increased female participation in the workforce. Our findings indicate that a woman is more likely to be employed in roles that demand extended working hours or offer limited flexibility if she is more educated than her husband.
+
+3.  Sunlight and Intergenerational Mobility (with Per G. Fredriksson and Le Wang)
+
+4.	Hell or Heaven: Rethinking Marriage and Marriage Premium
+
+5.  Daughter and Divorce: A Machine Learning Application (with Le Wang)
+
+</div>
+
+# Publication
+1.	[Religion Effects on Fertility Preference: Evidence from China (with Yonghong Zhou), *Journal
+of Population Research* 39, 341–371 (2022)](https://link.springer.com/article/10.1007/s12546-022-09286-4)
