@@ -25,9 +25,11 @@ output: html_document
 Hi, welcome to my website! 
 
 
-I am a PhD  candidate in Economics at the  University of Oklahoma. 
+I am a fifth-year Ph.D. candidate in the Department of Economics at the University of Oklahoma. I am an applied micro economist with primary research interests in environment and ecology, agricultural economics, international trade, development, and public economics. I am currently on the job market and will be available for interviews on the 2024/25 market. 
 
-I work on applied micro issues focusing on environment and ecology, agricultural economics, international trade, development, and public economics.
+My job market paper, entitled: "Agricultural trade policy and water quality: evidence from the Mexican Hass Avocado Import Program", studies how U.S.-Mexico trade regulation impacts Mexico's water quality. My other working papers focus on the ways U.S.-Mexico avocado trade effects crime in Mexico, how FDI inflow impacts gender wage gaps, and the influence hydraulic fracking has on the U.S. housing market.  
+
+As a graduate instructor, I have independently taught a large variety of college courses at the University of Oklahoma. They include introductory courses in microeconomics and macroeconomics, statistics, and an upper-level course focusing on industrial organization theory and antitrust policies. 
 
 
 In my free time, I like to read, camp, or make travel plans with my family. 
