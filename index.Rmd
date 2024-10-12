@@ -35,15 +35,19 @@ As a graduate instructor, I have independently taught a large variety of college
 In my free time, I like to read, camp, or make travel plans with my family. 
 
 
-## Research Interests
 
- - environment and ecology
- - Agricultural economics
- - International trade
- - Development economics
- - Public economics 
- - Machine Learning Application
+You can reach me at
 
+[willtown@ou.edu](mailto:willtown@ou.edu)
+
+Department of Economics || University of Oklahoma
+
+308 Cate Center Drive One 
+
+Norman, OK USA 73072
+
+![GitHub](images/github.png){width=20%} [GitHub](https://github.com/williamatownsend)  
+![LinkedIn](images/linkedin.png){width=16%} [LinkedIn](https://www.linkedin.com/in/william-townsend-b26981331/)
 
 
 
